@@ -1,10 +1,9 @@
+import BrainIcon from '../public/Icon/brain.svg';
 export default function App() {
 
   return (
       <>
-
-          <h1 className="begin">this is test this is test for me and beautiful it is 's</h1>
-
+          <i className="fa-solid fa-envelope" style={{color:'green'}}></i>
       </>
   )
 }
