@@ -1,0 +1,17 @@
+.textLogo {
+    color: var(--main-light-blue);
+}
+.textDescription {
+    color: var(--main-light-gray) !important;
+    font-size: 14px;
+    font-family: 'Roboto-Medium' , serif !important;
+}
+
+.icon-nav {
+    font-size: 40px;
+    color: var(--main-light-blue);
+}
+.text-nav > strong {
+    color: var(--main-gray);
+    font-size: 14px;
+}
