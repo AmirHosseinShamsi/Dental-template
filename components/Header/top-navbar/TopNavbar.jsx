@@ -5,27 +5,30 @@ import IconText from "../../../components/Header/top-navbar/icon-text/IconText.j
 const TopNavbar = () => {
     const data = [{
         iconType: 'fa-solid fa-clock',
-        topText: 'test',
-        bottomText: 'test2'
+        topText: 'Monday - Friday',
+        bottomText: '8AM - 8PM',
+        className:'justify-content-lg-end'
     }, {
-        iconType: 'fa-solid fa-clock',
-        topText: 'test',
-        bottomText: 'test2'
+        iconType: 'fa-solid fa-phone',
+        topText: 'Call Us',
+        bottomText: '+2 392 3929 210',
+        className:'justify-content-lg-center'
     }, {
-        iconType: 'fa-solid fa-clock',
-        topText: 'test',
-        bottomText: 'test2'
+        iconType: 'fa-solid fa-location-dot',
+        topText: 'Location',
+        bottomText: 'san francisco, california , usa',
+        className:'justify-content-lg-start'
     }
     ]
     return (
         <div className="p-4 p-md-3">
             <div className="p-0 container-md">
                 <div className="row m-0 align-items-center">
-                    <div className="col-12 text-start text-md-center col-lg-3 text-lg-start">
+                    <div className="col-12 text-start text-md-center col-lg-2 text-lg-start">
                         <Brand href="#" heading="toothcare" description="dental clinic services"/>
                     </div>
-                    <div className="col-12 mt-3 mt-md-0 col-lg-9">
-                        <div className="row justify-content-between align-items-center">
+                    <div className="col-12 mt-3 mt-md-0 col-lg-10">
+                        <div className="row m-0 justify-content-between align-items-center">
                             {data.map((item, index) => {
                                 return <div className="col-12 col-md-4">
                                     <IconText data={item}/>
