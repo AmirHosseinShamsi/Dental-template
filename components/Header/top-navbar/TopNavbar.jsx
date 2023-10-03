@@ -30,7 +30,7 @@ const TopNavbar = () => {
                     <div className="col-12 mt-3 mt-md-0 col-lg-10">
                         <div className="row m-0 justify-content-between align-items-center">
                             {data.map((item, index) => {
-                                return <div className="col-12 col-md-4">
+                                return <div className="col-12 col-md-4" key={index}>
                                     <IconText data={item}/>
                                 </div>
                             })}

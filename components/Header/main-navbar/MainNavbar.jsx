@@ -38,7 +38,7 @@ const MainNavbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className={`navbar-nav p-2 order-5 order-lg-0 ${classes.fontType}`}>
                         {data.map((item, index) => {
-                            return <ListItem data={item} index={index}/>
+                            return <ListItem data={item} index={index} key={index}/>
                         })}
                     </ul>
                 </div>

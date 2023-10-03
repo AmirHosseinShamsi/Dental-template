@@ -1,0 +1,13 @@
+.carouselButton {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: var(--main-light-blue) !important;
+    border-radius: 50%;
+}
+.carouselImage {
+    height: 100vh;
+    object-fit: cover;
+}
+.carouselHeight {
+    height: 100vh;
+}
