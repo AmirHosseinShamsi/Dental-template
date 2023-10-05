@@ -14,12 +14,10 @@ const Slider = () => {
                         aria-label="Slide 2" className={classes.carouselButton}></button>
             </div>
             <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item position-relative active">
                     <img src={Image1} className={`w-100 ${classes.carouselImage}`} alt="..."/>
-                    <div className="overlay position-absolute top-0">
-                        <div className="row m-0">
-                            <div className={`col-lg-6 col-12 ${classes.backdrop}`}>
-                                <div className="row m-0 text-white justify-content-center h-100 align-content-center">
+                    <div className={`overlay position-absolute top-0 col-lg-6 col-12 ${classes.backdrop}`}>
+                        <div className="row m-0 text-white justify-content-center h-100 align-content-center">
                                     <h5 className={`display-5 col-10 mb-4 text-center text-lg-start ${classes.carouselHeading}`}>Dentist
                                         Services <br/> that You Can Trust
                                     </h5>
@@ -51,10 +49,10 @@ const Slider = () => {
                         </div>
                     </div>
                 </div>
-                <div className="carousel-item position-relative">
+/*                <div className="carousel-item position-relative">
                     <img src={Image2} className={`d-block w-100 ${classes.carouselImage}`} alt="..."/>
                     <div className="overlay position-absolute top-0">
-                        {/*<div className="row m-0">
+                        {/!*<div className="row m-0">
                                 <div className="col-lg-6 col-12 opacity-for-div" style={{height:'100vh'}}>
                                     <div className="row m-0 text-white justify-content-center h-100 align-content-center">
                                         <h5 className="display-5 col-10 mb-4 carousel-h5-text text-center text-lg-start">A Brighter
@@ -83,12 +81,11 @@ const Slider = () => {
 
 
                                 </div>
-                            </div>*/}
+                            </div>*!/}
                     </div>
                 </div>
-
             </div>
-        </div>
+        </div>*/
     );
 };
 export default Slider;
