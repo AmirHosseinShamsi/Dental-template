@@ -1,0 +1,8 @@
+.textLogo {
+    color: var(--main-light-blue);
+}
+.textDescription {
+    color: var(--main-light-gray) !important;
+    font-size: 14px;
+    font-family: 'Roboto-Medium' , serif !important;
+}

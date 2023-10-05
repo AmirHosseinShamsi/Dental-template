@@ -1,10 +1,28 @@
-@import url('assets/css/font.css');
+@import url('../public/css/font.css');
 @import "../public/fontawesome/css/all.min.css";
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --main-white: #ffffff;
+    --main-light-blue: #00bcd4;
+    --main-gray: #999999;
+    --main-black: rgb(0, 0, 0);
+    --main-light-gray: #cccccc;
+    --main-light-blue-dark: #0093a6;
+    --main-medium-gray: #9f9f9f;
+    --main-white-gray: rgba(255, 255, 255, 0.7);
+    --color-cards: #f0f0f0;
+}
+
+::placeholder {
+    color: var(--main-white-gray) !important;
+    font-family: 'Roboto-Medium' , serif !important;
+    font-size: 15px;
+    text-transform: capitalize;
+}
 body{
-    font-family: 'Roboto-Light' , serif;
+    font-family: 'Roboto-Black' , serif !important;
 }

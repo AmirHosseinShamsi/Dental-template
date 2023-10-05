@@ -1,0 +1,11 @@
+.iconSection {
+    font-size: 40px;
+    color: var(--main-light-blue);
+}
+.topText{
+    font-family: Roboto-Light , serif !important;
+}
+.bottomText {
+    color: var(--main-gray);
+    font-size: 14px;
+}

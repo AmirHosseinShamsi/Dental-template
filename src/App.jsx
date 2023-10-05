@@ -1,8 +1,10 @@
+import Header from "../components/Header/Header.jsx";
+
 export default function App() {
 
   return (
       <>
-          <button className="btn btn-danger">test</button>
+          <Header/>
       </>
   )
 }
