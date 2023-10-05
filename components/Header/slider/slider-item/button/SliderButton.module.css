@@ -1,0 +1,11 @@
+.sliderButton{
+    font-size: 10px;
+}
+.sliderButton--white{
+    background-color: var(--main-white) !important;
+    color: var(--main-light-blue) !important;
+}
+.sliderButton--blue{
+    background-color: var(--main-light-blue) !important;
+    color: var(--main-white) !important;
+}

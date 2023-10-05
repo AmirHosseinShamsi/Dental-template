@@ -1,0 +1,18 @@
+.carouselImage {
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+.backdrop {
+    background: rgba(13, 13, 13, 0.2);
+    height: 100vh;
+}
+
+.carouselHeading {
+    font-family: 'Roboto-Bold' , serif !important;
+}
+
+.carouselDescription {
+    font-family: 'Roboto-Medium' , serif !important;
+}

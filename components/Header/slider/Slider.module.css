@@ -4,34 +4,6 @@
     background-color: var(--main-light-blue) !important;
     border-radius: 50%;
 }
-.carouselImage {
-    height: 100vh;
-    object-fit: cover;
-}
 .carouselHeight {
     height: 100vh;
-}
-
-.backdrop {
-    background: rgba(13, 13, 13, 0.2);
-    height: 100vh;
-}
-
-.carouselHeading {
-    font-family: 'Roboto-Bold' , serif !important;
-}
-
-.carouselDescription {
-    font-family: 'Roboto-Medium' , serif !important;
-}
-.servicesButton {
-    font-size: 10px !important;
-    background-color: var(--main-light-blue) !important;
-    color: var(--main-white) !important;
-}
-
-.courseButton {
-    background-color: var(--main-white) !important;
-    color: var(--main-light-blue) !important;
-    font-size: 10px !important;
 }
