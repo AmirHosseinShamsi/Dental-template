@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Slider.module.css';
-import SliderItem from "components/Header/slider/slider-item/SliderItem.jsx";
+import SliderItem from "../../../components/Header/slider/slider-item/SliderItem.jsx";
 import Image1 from '../../../public/images/carousel-image1.webp';
 import Image2 from '../../../public/images/carousel-image2.webp';
 const Slider = () => {
@@ -31,7 +31,7 @@ const Slider = () => {
             </div>
             <div className="carousel-inner">
                 {data.map((item , index)=>{
-                    return <SliderItem data={item}/>
+                    return <SliderItem key={index} data={{...item}}/>
                 })}
             </div>
         </div>
