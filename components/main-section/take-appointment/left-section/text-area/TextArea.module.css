@@ -1,0 +1,8 @@
+.textAreaDesign{
+    height: 150px !important;
+    resize: none;
+}
+.textAreaLabel {
+    font-size: 12px !important;
+    font-family: 'Roboto-Medium' , serif !important;
+}
