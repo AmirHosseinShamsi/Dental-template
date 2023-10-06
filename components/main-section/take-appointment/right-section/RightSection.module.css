@@ -1,0 +1,20 @@
+.parentSection {
+    margin-top: 4.8rem;
+}
+.topTextStyle {
+    font-size: 14px;
+    color: var(--main-light-blue);
+    font-family: 'Roboto-Medium',serif !important;
+}
+.headingTextStyle {
+    font-size: 38px;
+    color: var(--main-white);
+    font-family: 'Roboto-Bold',serif !important;
+}
+/*.main-form-section {
+    height: 100vh;
+}
+.section-form {
+    background-color: var(--main-light-blue);
+}*/
+

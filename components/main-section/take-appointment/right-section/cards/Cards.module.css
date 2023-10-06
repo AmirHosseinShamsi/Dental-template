@@ -1,0 +1,22 @@
+.cardIcon {
+    font-size: 3.4rem;
+    color: var(--main-light-blue);
+}
+.cardStyle {
+    transition: all 0.4s;
+}
+
+.cardStyle:hover {
+    -webkit-box-shadow: -2px 0 19px 5px rgba(200, 200, 200, 0.37);
+    box-shadow: -2px 0 19px 5px rgba(200, 200, 200, 0.37);
+    cursor: pointer;
+}
+.cardHeading {
+    font-size: 20px;
+    font-family: 'Roboto-Medium' , serif !important;
+}
+
+.cardDescription {
+    font-family: 'Roboto-Regular' , serif !important;
+    color: var(--main-medium-gray);
+}
