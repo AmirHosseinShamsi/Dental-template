@@ -4,6 +4,8 @@
 }
 .cardStyle {
     transition: all 0.4s;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
 }
 
 .cardStyle:hover {
