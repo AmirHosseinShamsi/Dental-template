@@ -1,0 +1,12 @@
+.leftSectionBackground {
+    background-color: var(--main-light-blue);
+}
+.buttonDesign {
+    font-family: 'Roboto-Medium' , serif !important;
+    font-size: 12px;
+    color: var(--main-light-blue);
+}
+
+.buttonDesign:hover {
+    color: var(--main-light-blue);
+}
