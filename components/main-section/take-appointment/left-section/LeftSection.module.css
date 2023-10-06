@@ -3,10 +3,6 @@
 }
 .buttonDesign {
     font-family: 'Roboto-Medium' , serif !important;
-    font-size: 12px;
-    color: var(--main-light-blue);
-}
-
-.buttonDesign:hover {
-    color: var(--main-light-blue);
+    font-size: 12px !important;
+    color: var(--main-light-blue) !important;
 }

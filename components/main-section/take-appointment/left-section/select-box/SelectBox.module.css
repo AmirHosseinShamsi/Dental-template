@@ -7,6 +7,11 @@
     font-family: 'Roboto-Medium' , serif !important;
     font-size: 15px;
     text-transform: capitalize;
+    border-bottom: 1px solid white;
+}
+.placeholderStyle:focus {
+    box-shadow: none;
+    outline: none;
 }
 .optionsDesign {
     color: black !important;

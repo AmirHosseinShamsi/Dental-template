@@ -1,3 +1,6 @@
-.textDesign , .headingDesign{
+.textDesign{
     font-family: 'Roboto-Regular' , serif !important;
+}
+.headingDesign{
+    font-family: 'Roboto-Medium' , serif !important;
 }
