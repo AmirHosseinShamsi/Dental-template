@@ -5,3 +5,16 @@
     height: 100% !important;
     object-fit: cover;
 }
+.shortText {
+    color: var(--main-light-blue);
+    font-family: 'Roboto-Medium' , serif !important;
+    font-size: 14px;
+}
+.headingText {
+    font-size: 38px;
+    font-family: 'Roboto-Medium' , serif !important;
+}
+.description {
+    color: var(--main-light-gray);
+    font-family: 'Roboto-Regular' , serif !important;
+}
