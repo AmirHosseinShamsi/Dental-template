@@ -1,0 +1,15 @@
+.doctorSection {
+    background-color: var(--color-cards);
+}
+.alignPadding{
+    padding: 120px 0 80px 0;
+}
+.shortText {
+    font-size: 14px;
+    font-family: 'Roboto-Medium' , serif !important;
+    color: var(--main-light-blue);
+}
+.headingText {
+    font-size: 40px;
+    font-family: 'Roboto-Bold' , serif !important;
+}
