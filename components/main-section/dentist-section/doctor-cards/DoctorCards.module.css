@@ -10,27 +10,16 @@
     border: 10px solid var(--color-cards);
     margin-top: -127px;
 }
-.card-title-h5 {
+.doctorName {
     font-size: 20px;
     font-family: 'Roboto-Bold' , serif !important;
 }
-.card-subtitle-h6 {
+.doctorPosition {
     font-family: 'Roboto-Medium' , serif;
     color: var(--main-light-blue) !important;
     letter-spacing: 2px;
 }
-.icon-first {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--main-light-blue);
-    color: white;
-}
-.icon-first i {
-    margin-top: 9px;
-    font-size: 20px;
-}
-.card-text {
+.aboutSection {
     color: var(--main-medium-gray);
     font-family: 'Roboto-Regular' , serif;
     line-height: 26px;
