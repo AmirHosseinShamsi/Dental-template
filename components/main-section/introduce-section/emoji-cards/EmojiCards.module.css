@@ -1,0 +1,13 @@
+.smileIcon {
+    font-size: 40px;
+    color: var(--main-light-blue);
+}
+.heading {
+    font-size: 24px;
+    color: var(--main-light-blue);
+    font-family: 'Roboto-Bold' , serif !important;
+}
+.description {
+    color: rgb(151 151 151);
+    font-family: 'Roboto-Regular' , serif !important;
+}

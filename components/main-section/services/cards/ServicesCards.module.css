@@ -1,6 +1,6 @@
 .iconSection {
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
     border-radius: 50%;
     background-color: var(--main-light-blue);
     color: var(--main-black);

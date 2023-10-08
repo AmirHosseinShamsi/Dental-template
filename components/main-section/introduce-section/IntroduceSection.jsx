@@ -1,6 +1,7 @@
 import React from 'react';
-import clinicImage from 'public/images/Welcome to our clinic.webp';
+import clinicImage from '../../../public/images/Welcome to our clinic.webp';
 import classes from './IntroduceSection.module.css';
+import EmojiCards from "../../../components/main-section/introduce-section/emoji-cards/EmojiCards.jsx";
 const IntroduceSection = () => {
     return (
         <article className="container-lg p-0">
@@ -22,44 +23,13 @@ const IntroduceSection = () => {
                                 Vokalia
                                 and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
                                 coast of the Semantics, a large language ocean.</p>
-                            {/*<div className="col-12">
+                            <div className="col-12">
                                 <div className="row g-3">
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="row m-0 border border-info rounded-1 bg-light py-2 bg-transparent">
-                                            <div className="inside-ico col-3">
-                                                <i className="fa-regular fa-face-smile-wink"></i>
-                                            </div>
-                                            <div className="txt-inside col-8 ms-2">
-                                                <h5 className="wwe">3,000</h5>
-                                                <span>HAPPY PATIENTS</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="row m-0 border border-info rounded-1 bg-light py-2 bg-transparent">
-                                            <div className="inside-ico col-3">
-                                                <i className="fa-regular fa-face-smile-wink"></i>
-                                            </div>
-                                            <div className="txt-inside col-8 ms-2">
-                                                <h5 className="wwe">3,000</h5>
-                                                <span>HAPPY PATIENTS</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6 col-12">
-                                        <div className="row m-0 border border-info rounded-1 bg-light py-2 bg-transparent">
-                                            <div className="inside-ico col-3">
-                                                <i className="fa-regular fa-face-smile-wink"></i>
-                                            </div>
-                                            <div className="txt-inside col-8 ms-2">
-                                                <h5 className="wwe">3,000</h5>
-                                                <span>HAPPY PATIENTS</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                    <EmojiCards/>
+                                    <EmojiCards/>
+                                    <EmojiCards/>
                                 </div>
-                            </div>*/}
+                            </div>
                         </div>
                     </div>
                 </div>
