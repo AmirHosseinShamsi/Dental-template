@@ -1,0 +1,11 @@
+.socialMediaSection {
+    width: 50px !important;
+    height: 50px;
+    border-radius: 50% !important;
+    background-color: var(--main-light-blue) !important;
+    color: white !important;
+}
+.socialMediaIcon {
+    margin-top: 9px;
+    font-size: 20px;
+}
