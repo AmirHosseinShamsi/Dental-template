@@ -16,7 +16,8 @@ const DentistSection = () => {
             icon: 'fa-brands fa-instagram',
         }, {
             icon: 'fa-brands fa-telegram'
-        }]
+        }],
+        about:"I am an ambitious workaholic, but apart from that, pretty simple person."
     },{
         image: doctorImage,
         fullName: 'Dr. Alicia Henderson',
@@ -29,7 +30,8 @@ const DentistSection = () => {
             icon: 'fa-brands fa-instagram',
         }, {
             icon: 'fa-brands fa-telegram'
-        }]
+        }],
+        about:"I am an ambitious workaholic, but apart from that, pretty simple person."
     },{
         image: doctorImage,
         fullName: 'Dr. Alicia Henderson',
@@ -42,7 +44,22 @@ const DentistSection = () => {
             icon: 'fa-brands fa-instagram',
         }, {
             icon: 'fa-brands fa-telegram'
-        }]
+        }],
+        about:"I am an ambitious workaholic, but apart from that, pretty simple person."
+    },{
+        image: doctorImage,
+        fullName: 'Dr. Alicia Henderson',
+        position: 'dentist',
+        socialMedia: [{
+            icon: 'fa-brands fa-twitter',
+        }, {
+            icon: 'fa-brands fa-facebook',
+        }, {
+            icon: 'fa-brands fa-instagram',
+        }, {
+            icon: 'fa-brands fa-telegram'
+        }],
+        about:"I am an ambitious workaholic, but apart from that, pretty simple person."
     },]
     return (
         <section className={classes.doctorSection}>

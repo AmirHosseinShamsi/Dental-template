@@ -1,24 +1,25 @@
+.doctorPosition {
+    font-family: 'Roboto-Medium' , serif;
+    color: #00bcd4 !important;
+    letter-spacing: 2px;
+}
 .cards {
-    margin-top: 170px;
+    margin-top: 170px !important;
 }
 .doctorsImage {
-    width: 210px;
+    width: 210px !important;
     height: 210px;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     border-top-left-radius: 100%;
     border: 10px solid var(--color-cards);
-    margin-top: -127px;
+    margin-top: -127px !important;
 }
 .doctorName {
     font-size: 20px;
     font-family: 'Roboto-Bold' , serif !important;
 }
-.doctorPosition {
-    font-family: 'Roboto-Medium' , serif;
-    color: var(--main-light-blue) !important;
-    letter-spacing: 2px;
-}
+
 .aboutSection {
     color: var(--main-medium-gray);
     font-family: 'Roboto-Regular' , serif;
