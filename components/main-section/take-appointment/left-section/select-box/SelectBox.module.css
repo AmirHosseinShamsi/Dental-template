@@ -1,0 +1,18 @@
+.labelStyle {
+    font-size: 12px;
+    font-family: 'Roboto-Medium' , serif !important;
+}
+.placeholderStyle {
+    color: var(--main-white-gray) !important;
+    font-family: 'Roboto-Medium' , serif !important;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+}
+.placeholderStyle:focus {
+    box-shadow: none;
+    outline: none;
+}
+.optionsDesign {
+    color: black !important;
+}
