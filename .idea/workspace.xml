@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="conflict done" />
+    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="some changes">
+      <change afterPath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/our-result/OurResult.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/our-result/OurResult.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,6 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +73,7 @@
       <workItem from="1698484700824" duration="6415000" />
       <workItem from="1698492447657" duration="91000" />
       <workItem from="1698492552839" duration="493000" />
+      <workItem from="1698694144373" duration="2015000" />
     </task>
     <task id="LOCAL-00001" summary="advertisement section done">
       <option name="closed" value="true" />
@@ -74,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698494975177</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1698495214793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698495214793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="advertisement section done" />
     <MESSAGE value="conflict done" />
-    <option name="LAST_COMMIT_MESSAGE" value="conflict done" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
 </project>

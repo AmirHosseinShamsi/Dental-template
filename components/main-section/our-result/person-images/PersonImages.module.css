@@ -1,0 +1,20 @@
+.imageStyles {
+    width: 100% !important;
+    height: 368px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+.opacityBackground {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.ageStyles {
+    font-size: 13px;
+    font-family: 'Roboto-Regular' , serif;
+    text-transform: capitalize;
+}
+.nameStyles{
+    font-size: 20px;
+    font-family: 'Roboto-Medium' , serif;
+    text-transform: capitalize;
+}
