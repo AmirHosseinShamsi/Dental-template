@@ -6,6 +6,7 @@ import DentistSection from "../components/main-section/dentist-section/DentistSe
 import Advertisement from "../components/main-section/advertisement/Advertisement.jsx";
 import CardCarousel from "../components/main-section/card-carousel/CardCarousel.jsx";
 import OurResult from "../components/main-section/our-result/OurResult.jsx";
+import Blog from "../components/main-section/blog/Blog.jsx";
 
 export default function App() {
 
@@ -20,6 +21,7 @@ export default function App() {
               <Advertisement/>
               <CardCarousel/>
               <OurResult/>
+              <Blog/>
           </main>
       </>
   )

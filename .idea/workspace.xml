@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-section/our-result/OurResult.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-section/our-result/OurResult.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.module.css" afterDir="false" />
+    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="Result section done">
+      <change afterPath="$PROJECT_DIR$/components/main-section/blog/Blog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/blog/Blog.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/blog/blog-card/BlogCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/blog/blog-card/BlogCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/blog/blog-card/card-body/CardBody.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-section/blog/blog-card/card-body/CardBody.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1698484700824" duration="6415000" />
       <workItem from="1698492447657" duration="91000" />
       <workItem from="1698492552839" duration="493000" />
-      <workItem from="1698694144373" duration="2015000" />
+      <workItem from="1698694144373" duration="4506000" />
     </task>
     <task id="LOCAL-00001" summary="advertisement section done">
       <option name="closed" value="true" />
@@ -99,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698495214793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Result section done">
+      <option name="closed" value="true" />
+      <created>1698696305524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698696305524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +140,7 @@
     <MESSAGE value="advertisement section done" />
     <MESSAGE value="conflict done" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="Result section done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Result section done" />
   </component>
 </project>

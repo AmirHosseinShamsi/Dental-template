@@ -1,0 +1,24 @@
+.cardEmoji {
+    color: var(--main-gray);
+    font-family: 'Roboto-Bold' , serif;
+}
+
+.headCardText {
+    font-size: 20px;
+    color: var(--main-black);
+    font-family: 'Roboto-Medium' , serif;
+}
+
+.descriptionCardText {
+    color: var(--main-medium-gray);
+    font-family: 'Roboto-Regular' , serif;
+}
+
+.blogTag{
+    font-size: 13px;
+}
+
+.blogTagIcon {
+    color: var(--main-light-blue);
+    font-size: inherit;
+}
