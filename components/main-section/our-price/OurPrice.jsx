@@ -1,5 +1,5 @@
 import React from 'react';
-import PriceCard from "components/main-section/our-price/price-card/PriceCard.jsx";
+import PriceCard from "./price-card/PriceCard.jsx";
 import classes from './OurPrice.module.css';
 const OurPrice = () => {
     return (
@@ -11,13 +11,16 @@ const OurPrice = () => {
                 </div>
                 <div className="row m-0 g-3">
                     <div className="col-lg-3 col-md-6 col-12">
-                        <PriceCard/>
+                        <PriceCard head="basic plan" description="$60"/>
                     </div>
                     <div className="col-lg-3 col-md-6 col-12">
-                        <PriceCard/>
+                        <PriceCard head="basic plan" description="$60"/>
                     </div>
                     <div className="col-lg-3 col-md-6 col-12">
-                        <PriceCard/>
+                        <PriceCard head="basic plan" description="$60"/>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-12">
+                        <PriceCard head="basic plan" description="$60"/>
                     </div>
                 </div>
             </div>

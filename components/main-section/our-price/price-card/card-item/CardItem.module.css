@@ -1,7 +1,7 @@
 .cardItem{
-    color: var(--main-medium-gray);
+    color: var(--main-medium-gray) !important;
     font-family: 'Roboto-Medium' , serif;
 }
 .cardItemIcon{
-    color: var(--main-light-blue);
+    color: var(--main-light-blue) !important;
 }

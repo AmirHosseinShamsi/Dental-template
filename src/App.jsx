@@ -7,6 +7,7 @@ import Advertisement from "../components/main-section/advertisement/Advertisemen
 import CardCarousel from "../components/main-section/card-carousel/CardCarousel.jsx";
 import OurResult from "../components/main-section/our-result/OurResult.jsx";
 import Blog from "../components/main-section/blog/Blog.jsx";
+import OurPrice from "../components/main-section/our-price/OurPrice.jsx";
 
 export default function App() {
 
@@ -22,6 +23,7 @@ export default function App() {
               <CardCarousel/>
               <OurResult/>
               <Blog/>
+              <OurPrice/>
           </main>
       </>
   )

@@ -8,7 +8,7 @@
     font-family: 'Roboto-Bold' , serif;
 }
 .buttonCard{
-    font-family: 'Roboto-Medium' , serif;
-    font-size: 13px;
-    color: white;
+    font-family: 'Roboto-Medium' , serif !important;
+    font-size: 13px !important;
+    color: white !important;
 }
