@@ -1,0 +1,8 @@
+.bottomFooterContainer{
+    background-color: #14adc0;
+}
+.bottomFooterText{
+    font-size: 14px;
+    color: var(--color-cards);
+    font-family: 'Roboto-Regular' , serif;
+}
