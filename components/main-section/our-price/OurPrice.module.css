@@ -1,0 +1,12 @@
+.priceContainer {
+    padding: 150px 0;
+}
+.headText {
+    color: var(--main-light-blue);
+    font-size: 14px;
+    font-family: 'Roboto-Bold' , serif;
+}
+.descriptionText {
+    font-size: 38px;
+    font-family: 'Roboto-Bold' , serif;
+}

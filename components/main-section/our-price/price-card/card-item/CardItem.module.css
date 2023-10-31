@@ -1,0 +1,7 @@
+.cardItem{
+    color: var(--main-medium-gray);
+    font-family: 'Roboto-Medium' , serif;
+}
+.cardItemIcon{
+    color: var(--main-light-blue);
+}
