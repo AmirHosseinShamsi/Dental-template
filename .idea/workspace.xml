@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="price section done">
-      <change afterPath="$PROJECT_DIR$/components/footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/footer/bottom-footer/BottomFooter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/footer/bottom-footer/BottomFooter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/footer/main-footer/MainFooter.jsx" afterDir="false" />
+    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="footer beta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,9 @@
       <workItem from="1698492447657" duration="91000" />
       <workItem from="1698492552839" duration="493000" />
       <workItem from="1698694144373" duration="5045000" />
-      <workItem from="1698741416071" duration="3928000" />
+      <workItem from="1698741416071" duration="4279000" />
+      <workItem from="1698746210014" duration="3000" />
+      <workItem from="1698830880275" duration="133000" />
     </task>
     <task id="LOCAL-00001" summary="advertisement section done">
       <option name="closed" value="true" />
@@ -130,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698743983534</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="footer beta">
+      <option name="closed" value="true" />
+      <created>1698745425797</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698745425797</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +173,7 @@
     <MESSAGE value="blog section done" />
     <MESSAGE value="price section beta" />
     <MESSAGE value="price section done" />
-    <option name="LAST_COMMIT_MESSAGE" value="price section done" />
+    <MESSAGE value="footer beta" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer beta" />
   </component>
 </project>

@@ -8,12 +8,15 @@ import CardCarousel from "../components/main-section/card-carousel/CardCarousel.
 import OurResult from "../components/main-section/our-result/OurResult.jsx";
 import Blog from "../components/main-section/blog/Blog.jsx";
 import OurPrice from "../components/main-section/our-price/OurPrice.jsx";
+import Footer from "../components/footer/Footer.jsx";
 
 export default function App() {
 
   return (
       <>
-          <Header/>
+          <header>
+              <Header/>
+          </header>
           <main>
               <TakeAppointment/>
               <Services/>
@@ -25,6 +28,9 @@ export default function App() {
               <Blog/>
               <OurPrice/>
           </main>
+          <footer>
+              <Footer/>
+          </footer>
       </>
   )
 }

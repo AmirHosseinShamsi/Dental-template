@@ -1,39 +1,13 @@
 import React from 'react';
-
+import classes from './MainFooter.module.css';
+import TextLogo from "../../../components/footer/main-footer/text-logo/TextLogo.jsx";
 const MainFooter = () => {
     return (
-        <div className="top-footer w-100">
+        <div className={`w-100 ${classes.topFooter}`}>
             <div className="container-md">
                 <div className="row m-0 bg-transparent gx-4">
                     <div className="col-lg-2 mt-lg-0 col-12">
-                        <div className="logo-footer bg-transparent">
-                            <a href="#" className="navbar-brand">
-                                <h3 className="text-uppercase m-0 h2-footer-text">toothcare</h3>
-                                <p className="text-uppercase m-0 p-footer-text">dental clinic services</p>
-                            </a>
-                            <p className="text-capitalize text-white mb-0 mt-4"
-                               style="color: white;font-family: 'Roboto-Regular'; text-align: justify;">A small river named
-                                Duden flows by their
-                                place and
-                                supplies it with
-                                the necessary regelialia.</p>
-                            <div className="icon-s-w mt-3">
-                                <div className="row m-0">
-                                    <div className="icon-first-footer-sec text-center btn"><i className="fa-brands fa-twitter"></i>
-                                    </div>
-                                    <div className="icon-first-footer-sec text-center btn ms-2">
-                                        <i className="fa-brands fa-facebook"></i>
-                                    </div>
-                                    <div className="icon-first-footer-sec text-center btn ms-2"><i
-                                        className="fa-brands fa-instagram"></i>
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
+                        <TextLogo/>
                     </div>
                     {/*<div className="col-lg-2 mt-lg-0 col-md-6 mt-5">
                         <div className="services-footer bg-transparent">
