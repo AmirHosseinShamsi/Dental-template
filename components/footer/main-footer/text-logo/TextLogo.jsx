@@ -12,7 +12,7 @@ const TextLogo = () => {
                 A small river named Duden flows by their place and supplies it with the necessary regelialia.
             </p>
             <div className="mt-3">
-                <div className="row m-0">
+                <div className="row flex-row m-0">
                     <div className={`text-center btn ${classes.socialMedia}`}><i className={`fa-brands fa-twitter ${classes.socialMediaIcon}`}></i>
                     </div>
                     <div className={`text-center btn ms-2 ${classes.socialMedia}`}>
