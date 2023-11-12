@@ -1,7 +1,34 @@
 import React from 'react';
 import classes from './MainFooter.module.css';
 import TextLogo from "../../../components/footer/main-footer/text-logo/TextLogo.jsx";
+import List from "../../../components/footer/main-footer/list/List.jsx";
+
 const MainFooter = () => {
+    const servicesListData = [{
+        text: 'tooth protection'
+    }, {
+        text: 'dental implants'
+    }, {
+        text: 'Dental Care'
+    }, {
+        text: 'teeth whitening'
+    }, {
+        text: 'dental calculus'
+    },]
+
+    const QuickListData = [{
+        text: 'home'
+    }, {
+        text: 'about'
+    }, {
+        text: 'services'
+    }, {
+        text: 'dentist & conditions'
+    }, {
+        text: 'blog'
+    }, {
+        text: 'contact'
+    },]
     return (
         <div className={`w-100 ${classes.topFooter}`}>
             <div className="container-md">
@@ -9,70 +36,13 @@ const MainFooter = () => {
                     <div className="col-lg-2 mt-lg-0 col-12">
                         <TextLogo/>
                     </div>
-                    {/*<div className="col-lg-2 mt-lg-0 col-md-6 mt-5">
-                        <div className="services-footer bg-transparent">
-                            <h6 className="text-capitalize" style="font-size: 18px;color: white;font-family: 'Roboto-Bold';">
-                                Services</h6>
-                            <ul className="list-group border-0 mt-3 rounded-0 bg-transparent">
-                                <li className="list-group-item bg-transparent ps-0 align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>tooth protection
-                                </li>
-                                <li className="list-group-item bg-transparent ps-0 align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>dental implants
-                                </li>
-                                <li className="list-group-item bg-transparent ps-0 align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>Dental Care
-                                </li>
-                                <li className="list-group-item bg-transparent ps-0 align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>Teeth Whitening
-                                </li>
-                                <li className="list-group-item bg-transparent ps-0 align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>Dental Calculus
-                                </li>
-
-
-                            </ul>
-                        </div>
+                    <div className="col-lg-2 mt-lg-0 col-md-6 mt-5">
+                        <List title="Services" data={servicesListData}/>
                     </div>
                     <div className="col-lg-2 mt-lg-0 col-md-6 mt-5">
-                        <div className="quick-links-footer bg-transparent">
-                            <h6 className="text-capitalize" style="font-size: 18px;color: white;font-family: 'Roboto-Bold';">
-                                quick links</h6>
-                            <ul className="list-group border-0 mt-3 rounded-0">
-                                <li className="list-group-item ps-0 bg-transparent align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>home
-                                </li>
-                                <li className="list-group-item ps-0 bg-transparent align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>about
-                                </li>
-                                <li className="list-group-item ps-0 bg-transparent align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>services
-                                </li>
-                                <li className="list-group-item ps-0 bg-transparent align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>dentist & conditions
-                                </li>
-                                <li className="list-group-item ps-0 bg-transparent align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>blog
-                                </li>
-                                <li className="list-group-item ps-0 bg-transparent align-items-center-center border-0 p-2"
-                                    style="color: var(--main-white);font-family: 'Roboto-Medium';"><span
-                                    className="fa-solid fa-arrow-right-long me-2"></span>contact
-                                </li>
-
-
-                            </ul>
-                        </div>
+                        <List title="Quick Links" data={QuickListData}/>
                     </div>
+                    {/*
                     <div className="col-lg-3 mt-lg-0 col-md-6 mt-5">
                         <div className="recent-post-footer bg-transparent">
                             <h6 className="text-white mb-4 text-capitalize"

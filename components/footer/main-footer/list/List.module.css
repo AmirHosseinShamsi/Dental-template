@@ -1,0 +1,9 @@
+.listTitle{
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto-Bold' , sans-serif;
+}
+.listItem{
+    color: var(--main-white);
+    font-family: 'Roboto-Medium' , sans-serif;
+}
