@@ -10,7 +10,7 @@ const CardCarousel = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 3
     };
     return (
         /*<div className="bg-info">
@@ -42,10 +42,8 @@ const CardCarousel = () => {
                         <span className={`text-uppercase ${classes.headingText}`}>terminal</span>
                         <h6 className={`text-capitalize ${classes.descriptionText}`}>Happy Customers</h6>
                     </div>
-                    <div style={{marginTop:'100px'}} className="col-12">
+                    <div style={{marginTop:'100px'}} className="col-12 position-relative">
                         <Slider {...settings}>
-                            <CarouselItem/>
-                            <CarouselItem/>
                             <CarouselItem/>
                             <CarouselItem/>
                             <CarouselItem/>
