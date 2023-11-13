@@ -3,10 +3,7 @@ import classes from './CarouselItem.module.css';
 import image from '../../../../public/images/card-carousel-image1.webp'
 const CarouselItem = () => {
     return (
-        <div className="bg-white text-white">
-            <div className={`text-center ${classes.iconContainer}`}>
-                <i className={`fa-solid fa-quote-left ${classes.icon}`}></i>
-            </div>
+        <div className="bg-white text-white me-2">
             <div className={`p-4 ${classes.textSection}`}>
                 <p className={`text-capitalize ${classes.text}`}>Far far away, behind the word
                     mountains, far from the countries
