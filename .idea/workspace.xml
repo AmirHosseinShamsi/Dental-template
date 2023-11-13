@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="blog posts done">
+    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="blog posts done 2 with refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/footer/main-footer/MainFooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/main-footer/MainFooter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/footer/main-footer/MainFooter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/main-footer/MainFooter.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer/main-footer/list/List.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/main-footer/list/List.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/main-footer/address/Address.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/main-footer/address/Address.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/main-footer/address/Address.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/main-footer/address/Address.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <workItem from="1699612134708" duration="3545000" />
       <workItem from="1699627396921" duration="8000" />
       <workItem from="1699816455220" duration="3679000" />
-      <workItem from="1699901443301" duration="1244000" />
+      <workItem from="1699901443301" duration="2480000" />
     </task>
     <task id="LOCAL-00001" summary="advertisement section done">
       <option name="closed" value="true" />
@@ -175,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699820068512</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="blog posts done 2 with refactor">
+      <option name="closed" value="true" />
+      <created>1699902921996</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699902921996</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +226,7 @@
     <MESSAGE value="some changes to social icons" />
     <MESSAGE value="links on footer done" />
     <MESSAGE value="blog posts done" />
-    <option name="LAST_COMMIT_MESSAGE" value="blog posts done" />
+    <MESSAGE value="blog posts done 2 with refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog posts done 2 with refactor" />
   </component>
 </project>

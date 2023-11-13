@@ -3,6 +3,7 @@ import classes from './MainFooter.module.css';
 import TextLogo from "../../../components/footer/main-footer/text-logo/TextLogo.jsx";
 import List from "../../../components/footer/main-footer/list/List.jsx";
 import BlogPost from "../../../components/footer/main-footer/blog-posts/BlogPost.jsx";
+import Address from "../../../components/footer/main-footer/address/Address.jsx";
 
 const MainFooter = () => {
     const servicesListData = [{
@@ -52,17 +53,10 @@ const MainFooter = () => {
                             <BlogPost/>
                         </div>
                     </div>
-                    {/*
                     <div className="col-lg-3 mt-lg-0 col-md-6 mt-5">
-                        <div className="bg-transparent">
-                            <h6 className="text-white mb-4 text-capitalize"
-                                style="font-size: 18px;font-family: 'Roboto-Medium';">recent posts
-                                </h6>
-                        </div>
+                        <h3 className={`text-capitalize text-white ${classes.haveQuestionText}`}>Have a Questions?</h3>
+                        <Address/>
                     </div>
-                    <div className="col-lg-3 mt-lg-0 col-md-6 mt-5">
-
-                    </div>*/}
                 </div>
 
             </div>
