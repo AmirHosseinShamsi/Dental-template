@@ -43,16 +43,15 @@ const MainFooter = () => {
                     <div className="col-lg-2 mt-lg-0 col-md-6 mt-5">
                         <List title="Quick Links" data={QuickListData}/>
                     </div>
-                   {/* <div className="col-lg-3 mt-lg-0 col-md-6 mt-5">
+                    <div className="col-lg-3 mt-lg-0 col-md-6 mt-5">
                         <div className="bg-transparent">
-                            <h6 className="text-white mb-4 text-capitalize"
-                                style="font-size: 18px;font-family: 'Roboto-Medium';">recent posts
+                            <h6 className={`text-white mb-4 text-capitalize ${classes.recentPostText}`}>recent posts
                             </h6>
                             <BlogPost/>
                             <BlogPost/>
                             <BlogPost/>
                         </div>
-                    </div>*/}
+                    </div>
                     {/*
                     <div className="col-lg-3 mt-lg-0 col-md-6 mt-5">
                         <div className="bg-transparent">

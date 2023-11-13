@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './BlogPost.module.css';
-import blogImage from '../../../../public/images/blog-image1.webp';
+import blogImage from '../../../../public/images/card-image2.webp';
 
 const BlogPost = () => {
     return (

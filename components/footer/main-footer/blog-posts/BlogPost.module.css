@@ -1,5 +1,5 @@
 .blogImage{
-    width: 50px;
+    width: 50px !important;
     height: 50px;
     background-size:cover;
     background-position: center;
@@ -7,7 +7,7 @@
 }
 .listItems{
     font-size: 12px;
-    color:white;
+    color:white !important;
 }
 .textBlog{
     font-size: 16px;

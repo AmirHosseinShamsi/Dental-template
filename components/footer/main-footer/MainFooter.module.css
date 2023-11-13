@@ -5,3 +5,7 @@
     background-blend-mode: soft-light;
     padding:120px 0;
 }
+.recentPostText{
+    font-size: 18px;
+    font-family: 'Roboto-Medium' , sans-serif;
+}
