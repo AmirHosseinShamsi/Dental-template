@@ -1,0 +1,39 @@
+.iconContainer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-cards);
+    margin-left: 22px;
+    margin-top: -20px;
+}
+.icon{
+    color: var(--main-light-blue);
+    font-size: 30px;
+    margin-top: 11px;
+}
+.textSection{
+    background-color: var(--main-white);
+}
+.text{
+    text-align: justify;
+    color: var(--main-medium-gray);
+    font-family: 'Roboto-Regular' , sans-serif;
+}
+.imageSection{
+    background-color: var(--color-cards);
+}
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.imageSectionHeading{
+    font-size: 20px;
+    font-family: 'Roboto-Bold' , sans-serif;
+    color: var(--main-black);
+}
+.imageSectionDescription{
+    font-size: 13px;
+    color: var(--main-light-blue);
+    font-family: 'Roboto-Medium' , sans-serif;
+}
