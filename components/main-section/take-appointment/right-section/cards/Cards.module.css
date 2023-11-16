@@ -4,15 +4,19 @@
 }
 .cardStyle {
     transition: all 0.4s;
-    border: 1px solid #cbcbcb;
     border-radius: 5px;
 }
 
 .cardStyle:hover {
-    -webkit-box-shadow: -2px 0 19px 5px rgba(200, 200, 200, 0.37);
-    box-shadow: -2px 0 19px 5px rgba(200, 200, 200, 0.37);
+    background-color: var(--main-light-blue) !important;
     cursor: pointer;
 }
+.cardStyle:hover .cardHeading ,
+.cardStyle:hover .cardDescription ,
+.cardStyle:hover .cardIcon {
+    color: white !important;
+}
+
 .cardHeading {
     font-size: 20px;
     font-family: 'Roboto-Medium' , serif !important;

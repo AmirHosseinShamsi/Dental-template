@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="footer done">
-      <change afterPath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-section/card-carousel/carousel-item/CarouselItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-section/card-carousel/carousel-item/CarouselItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/top-navbar/icon-text/IconText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/top-navbar/icon-text/IconText.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-section/take-appointment/right-section/RightSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/take-appointment/right-section/RightSection.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-section/take-appointment/right-section/cards/Cards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/take-appointment/right-section/cards/Cards.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

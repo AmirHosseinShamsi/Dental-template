@@ -1,6 +1,7 @@
 .iconSection {
     font-size: 40px;
     color: var(--main-light-blue);
+    margin-right: 8px;
 }
 .topText{
     font-family: Roboto-Light , serif !important;
