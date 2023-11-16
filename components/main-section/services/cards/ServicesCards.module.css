@@ -1,3 +1,20 @@
+.cardServices{
+    padding: 25px 18px;
+    transition: all 0.3s;
+}
+.cardServices:hover{
+    background-color: var(--main-light-blue) !important;
+    cursor: pointer;
+}
+.cardServices:hover .iconSection{
+    background-color: white;
+}
+.cardServices:hover .iconStyle{
+    color: var(--main-light-blue);
+}
+.cardServices:hover .cardHeading , .cardServices:hover .cardDescription{
+    color: white !important;
+}
 .iconSection {
     width: 100px !important;
     height: 100px !important;
