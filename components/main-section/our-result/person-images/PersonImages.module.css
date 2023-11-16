@@ -5,8 +5,16 @@
     object-fit: cover;
     background-position: center;
 }
+.parentOfImage:hover{
+    cursor: pointer;
+}
 .opacityBackground {
     background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0 !important;
+    transition: all 0.3s;
+}
+.parentOfImage:hover .opacityBackground{
+    opacity: 1 !important;
 }
 .ageStyles {
     font-size: 13px;

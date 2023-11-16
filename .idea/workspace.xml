@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="clinic section refactor">
-      <change beforePath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.jsx" afterDir="false" />
+    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="card-carousel refactor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700164485042</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="card-carousel refactor">
+      <option name="closed" value="true" />
+      <created>1700167978447</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700167978447</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +270,7 @@
     <MESSAGE value="header and appointment section refactor" />
     <MESSAGE value="refactor 2" />
     <MESSAGE value="clinic section refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="clinic section refactor" />
+    <MESSAGE value="card-carousel refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="card-carousel refactor" />
   </component>
 </project>
