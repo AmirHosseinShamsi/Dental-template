@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="clinic section refactor">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-section/dentist-section/DentistSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/dentist-section/DentistSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-section/dentist-section/doctor-cards/DoctorCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/dentist-section/doctor-cards/DoctorCards.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-section/dentist-section/doctor-cards/DoctorCards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/dentist-section/doctor-cards/DoctorCards.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/card-carousel/CardCarousel.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

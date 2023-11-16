@@ -10,31 +10,21 @@ const CardCarousel = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        arrows:false,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
     };
     return (
-        /*<div className="bg-info">
-            {/!*<Slider {...settings}>
-                <div>
-                    <h3>1</h3>
-                </div>
-                <div>
-                    <h3>2</h3>
-                </div>
-                <div>
-                    <h3>3</h3>
-                </div>
-                <div>
-                    <h3>4</h3>
-                </div>
-                <div>
-                    <h3>5</h3>
-                </div>
-                <div>
-                    <h3>6</h3>
-                </div>
-            </Slider>*!/}
-        </div>*/
         <section className={classes.cardCarouselSection}>
             <div className="container p-0">
                 <div className="row m-0">
