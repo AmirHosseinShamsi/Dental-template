@@ -4,15 +4,15 @@ import classes from './IntroduceSection.module.css';
 import EmojiCards from "../../../components/main-section/introduce-section/emoji-cards/EmojiCards.jsx";
 const IntroduceSection = () => {
     return (
-        <article className="container-lg p-0">
-                <div className="row m-0">
-                    <div className="col-5 bg-white p-0 d-none d-md-block">
+        <article className={`container-lg p-0 ${classes.parentSection}`}>
+                <div className="row m-0 h-100">
+                    <div className="h-100 col-5 bg-white p-0 d-none d-md-block">
                         <img
                         src={clinicImage}
                         className={`img-fluid w-100 ${classes.introduceImage}`} alt="clinic-image"/>
                     </div>
                     <div className="col-md-7 col-12 ps-4">
-                        <div className="row m-0 h-100 align-content-center py-5 py-lg-0">
+                        <div className="d-flex flex-column justify-content-center h-100 py-5 py-lg-0">
                             <h6 className={`text-uppercase col-12 ${classes.shortText}`}>WELCOME TO OUR DENTAL CLINIC</h6>
                             <h2 className={`text-capitalize col-12 mt-1 ${classes.headingText}`}>Toothcare is a Dental Clinic and Innovative Approach
                                 to

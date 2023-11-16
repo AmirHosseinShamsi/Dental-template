@@ -1,7 +1,7 @@
+.parentSection{
+    height: 670px;
+}
 .introduceImage {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100% !important;
     object-fit: cover;
 }

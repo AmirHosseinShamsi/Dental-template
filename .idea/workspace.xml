@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="header and appointment section refactor">
+    <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="refactor 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-section/services/cards/ServicesCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/services/cards/ServicesCards.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-section/services/cards/ServicesCards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/services/cards/ServicesCards.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-section/introduce-section/IntroduceSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/introduce-section/IntroduceSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-section/introduce-section/IntroduceSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/introduce-section/IntroduceSection.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <workItem from="1699627396921" duration="8000" />
       <workItem from="1699816455220" duration="3679000" />
       <workItem from="1699901443301" duration="7365000" />
-      <workItem from="1700162701582" duration="737000" />
+      <workItem from="1700162701582" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="advertisement section done">
       <option name="closed" value="true" />
@@ -199,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700141554863</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="refactor 2">
+      <option name="closed" value="true" />
+      <created>1700163492944</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700163492944</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +252,7 @@
     <MESSAGE value="blog posts done 2 with refactor" />
     <MESSAGE value="footer done" />
     <MESSAGE value="header and appointment section refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="header and appointment section refactor" />
+    <MESSAGE value="refactor 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor 2" />
   </component>
 </project>
