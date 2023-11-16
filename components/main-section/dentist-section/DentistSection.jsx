@@ -63,11 +63,11 @@ const DentistSection = () => {
     },]
     return (
         <section className={classes.doctorSection}>
-            <div className="container-md p-0">
+            <div className="p-0">
                 <div className={`row m-0 ${classes.alignPadding}`}>
                     <span className={`col-12 text-uppercase text-center mb-2 ${classes.shortText}`}>Our doctors</span>
                     <h5 className={`col-12 text-capitalize text-center ${classes.headingText}`}>Qualified Dentist</h5>
-                    <div className="row m-0 gx-3">
+                    <div className="row m-0 gx-3 flex-wrap justify-content-center">
                         {data.map((item, index) => {
                             return <DoctorCards data={{...item}}/>
                         })}

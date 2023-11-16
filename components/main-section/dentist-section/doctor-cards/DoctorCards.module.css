@@ -5,9 +5,10 @@
 }
 .cards {
     margin-top: 170px !important;
+    max-width: 350px !important;
 }
 .doctorsImage {
-    width: 210px !important;
+    max-width: 210px !important;
     height: 210px;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
