@@ -1,6 +1,6 @@
 # Toothcare Template
 
-This project is a React-based resume template built using Bootstrap as the styling framework. It was initially cloned from the incredible [Toothcare Template](https://preview.colorlib.com/#toothcare) created by [colorlib](https://colorlib.com/). A huge thank you to them for providing the foundation for this project!
+This project is a React-based template built using Bootstrap as the styling framework. It was initially cloned from the incredible [Toothcare Template](https://preview.colorlib.com/#toothcare) created by [colorlib](https://colorlib.com/). A huge thank you to them for providing the foundation for this project!
 
 ## Overview
 
