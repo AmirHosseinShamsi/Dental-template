@@ -1,7 +1,7 @@
 .topFooter {
-    background-size: cover;
     object-fit: cover;
     background: rgba(0 158 178 / 90%) url("public/images/carousel-image1.webp") no-repeat center;
+    background-size: cover;
     background-blend-mode: soft-light;
     padding:120px 0;
 }

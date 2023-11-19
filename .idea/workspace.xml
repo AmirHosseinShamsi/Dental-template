@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="78342c29-16cf-4900-ae61-f1dbb4f9c483" name="Changes" comment="card-carousel refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/our-result/person-images/PersonImages.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/main-footer/MainFooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/main-footer/MainFooter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-section/introduce-section/IntroduceSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-section/introduce-section/IntroduceSection.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

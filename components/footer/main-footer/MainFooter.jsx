@@ -33,18 +33,18 @@ const MainFooter = () => {
     },]
     return (
         <div className={`w-100 ${classes.topFooter}`}>
-            <div className="container-md">
-                <div className="row m-0 bg-transparent gx-4">
-                    <div className="col-lg-2 mt-lg-0 col-12">
+            <div className="container-xl">
+                <div className="row m-0 bg-transparent">
+                    <div className="col-md-6 col-lg">
                         <TextLogo/>
                     </div>
-                    <div className="col-lg-2 mt-lg-0 col-md-6 mt-5">
+                    <div className="col-md-6 col-lg-2">
                         <List title="Services" data={servicesListData}/>
                     </div>
-                    <div className="col-lg-2 mt-lg-0 col-md-6 mt-5">
+                    <div className="col-md-6 col-lg-2">
                         <List title="Quick Links" data={QuickListData}/>
                     </div>
-                    <div className="col-lg-3 mt-lg-0 col-md-6 mt-5">
+                    <div className="col-md-6 col-lg-3">
                         <div className="bg-transparent">
                             <h6 className={`text-white mb-4 text-capitalize ${classes.recentPostText}`}>recent posts
                             </h6>
@@ -53,7 +53,7 @@ const MainFooter = () => {
                             <BlogPost/>
                         </div>
                     </div>
-                    <div className="col-lg-3 mt-lg-0 col-md-6 mt-5">
+                    <div className="col-md-6 col-lg">
                         <h3 className={`text-capitalize text-white ${classes.haveQuestionText}`}>Have a Questions?</h3>
                         <Address/>
                     </div>
