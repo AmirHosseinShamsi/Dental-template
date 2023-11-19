@@ -38,13 +38,13 @@ const MainFooter = () => {
                     <div className="col-md-6 col-lg">
                         <TextLogo/>
                     </div>
-                    <div className="col-md-6 col-lg-2">
+                    <div className="col-md-6 col-lg-2 mt-md-0 mt-5">
                         <List title="Services" data={servicesListData}/>
                     </div>
-                    <div className="col-md-6 col-lg-2">
+                    <div className="col-md-6 col-lg-2 mt-lg-0 mt-5">
                         <List title="Quick Links" data={QuickListData}/>
                     </div>
-                    <div className="col-md-6 col-lg-3">
+                    <div className="col-md-6 col-lg-3 mt-lg-0 mt-5">
                         <div className="bg-transparent">
                             <h6 className={`text-white mb-4 text-capitalize ${classes.recentPostText}`}>recent posts
                             </h6>
@@ -53,7 +53,7 @@ const MainFooter = () => {
                             <BlogPost/>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg">
+                    <div className="col-md-6 col-lg mt-lg-0 mt-5">
                         <h3 className={`text-capitalize text-white ${classes.haveQuestionText}`}>Have a Questions?</h3>
                         <Address/>
                     </div>

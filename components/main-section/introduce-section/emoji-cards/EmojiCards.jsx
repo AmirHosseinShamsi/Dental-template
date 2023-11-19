@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './EmojiCards.module.css';
 const EmojiCards = () => {
     return (
-        <div className="col-lg-4 col-md-6">
+        <div className="col-12 col-sm-4 col-md-6 col-lg-4">
             <div className="row m-0 border border-info rounded-1 bg-light py-2 bg-transparent">
                 <div className={`col-3 ${classes.smileIcon}`}>
                     <i className="fa-regular fa-face-smile-wink"></i>

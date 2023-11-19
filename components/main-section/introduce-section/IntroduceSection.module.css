@@ -1,5 +1,7 @@
-.parentSection{
-    /*height: 670px;*/
+@media screen and (min-width: 768px) {
+    .parentSection{
+        height: 670px;
+    }
 }
 .introduceImage {
     height: 100% !important;
