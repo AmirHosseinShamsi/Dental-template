@@ -26,7 +26,7 @@ This template is designed to showcase my professional experience, skills, and ac
 1. Clone the repository or download the ZIP file.
 2. Install dependencies using `npm install`.
 3. Customize the template by editing the React components.
-4. Run the application using `npm start`.
+4. Run the application using `npm run dev`.
 
 Feel free to fork this repository and tailor it to suit your preferences!
 
