@@ -13,7 +13,7 @@ const DentistSection = () => {
         }, {
             icon: 'fa-brands fa-facebook',
         }, {
-            icon: 'fa-brands fa-instagram',
+            icon: 'fa-brands fa-linkedin',
         }, {
             icon: 'fa-brands fa-telegram'
         }],
@@ -27,7 +27,7 @@ const DentistSection = () => {
         }, {
             icon: 'fa-brands fa-facebook',
         }, {
-            icon: 'fa-brands fa-instagram',
+            icon: 'fa-brands fa-linkedin',
         }, {
             icon: 'fa-brands fa-telegram'
         }],
@@ -41,7 +41,7 @@ const DentistSection = () => {
         }, {
             icon: 'fa-brands fa-facebook',
         }, {
-            icon: 'fa-brands fa-instagram',
+            icon: 'fa-brands fa-linkedin',
         }, {
             icon: 'fa-brands fa-telegram'
         }],
@@ -55,7 +55,7 @@ const DentistSection = () => {
         }, {
             icon: 'fa-brands fa-facebook',
         }, {
-            icon: 'fa-brands fa-instagram',
+            icon: 'fa-brands fa-linkedin',
         }, {
             icon: 'fa-brands fa-telegram'
         }],
