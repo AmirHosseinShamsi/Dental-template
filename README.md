@@ -12,6 +12,8 @@ This template is designed to showcase my professional experience, skills, and ac
 - **Customizable Sections**: Easily modify and add sections to personalize your own template.
 - **Interactive Elements**: Utilizes React components for dynamic and engaging content presentation.
 
+### Preview
+- you can see the template preview in this link : [ToothCare clone template](https://amirhosseinshamsi.github.io/Dental-template/)
 
 ## Project photos
 
